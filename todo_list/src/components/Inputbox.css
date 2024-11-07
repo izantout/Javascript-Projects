@@ -1,0 +1,56 @@
+.inputBox {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .titleRow {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  .titleRow h1 {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .titleRow button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .titleRow button:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .submitButton {
+    margin: 10px 0;
+  }
+  

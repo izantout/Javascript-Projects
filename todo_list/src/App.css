@@ -1,0 +1,10 @@
+.App {
+  display: felx;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px auto;
+}
+.mainScreen {
+  display: flex;
+}
